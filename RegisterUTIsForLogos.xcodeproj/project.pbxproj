@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE99DB2119B8904A00164A51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99DB2019B8904A00164A51 /* main.m */; };
+		EE99DB2419B8904A00164A51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99DB2319B8904A00164A51 /* AppDelegate.m */; };
+		EE99DB2619B8904A00164A51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE99DB2519B8904A00164A51 /* Images.xcassets */; };
+		EE99DB2919B8904A00164A51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE99DB2719B8904A00164A51 /* MainMenu.xib */; };
+		EE99DB3519B8904A00164A51 /* RegisterUTIsForLogosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99DB3419B8904A00164A51 /* RegisterUTIsForLogosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE99DB2F19B8904A00164A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE99DB1319B8904A00164A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE99DB1A19B8904A00164A51;
+			remoteInfo = RegisterUTIsForLogos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE99DB1B19B8904A00164A51 /* RegisterUTIsForLogos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterUTIsForLogos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE99DB1F19B8904A00164A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE99DB2019B8904A00164A51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE99DB2219B8904A00164A51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE99DB2319B8904A00164A51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE99DB2519B8904A00164A51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE99DB2819B8904A00164A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EE99DB2E19B8904A00164A51 /* RegisterUTIsForLogosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterUTIsForLogosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE99DB3319B8904A00164A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE99DB3419B8904A00164A51 /* RegisterUTIsForLogosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterUTIsForLogosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE99DB1819B8904A00164A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE99DB2B19B8904A00164A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE99DB1219B8904A00164A51 = {
+			isa = PBXGroup;
+			children = (
+				EE99DB1D19B8904A00164A51 /* RegisterUTIsForLogos */,
+				EE99DB3119B8904A00164A51 /* RegisterUTIsForLogosTests */,
+				EE99DB1C19B8904A00164A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE99DB1C19B8904A00164A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE99DB1B19B8904A00164A51 /* RegisterUTIsForLogos.app */,
+				EE99DB2E19B8904A00164A51 /* RegisterUTIsForLogosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE99DB1D19B8904A00164A51 /* RegisterUTIsForLogos */ = {
+			isa = PBXGroup;
+			children = (
+				EE99DB2219B8904A00164A51 /* AppDelegate.h */,
+				EE99DB2319B8904A00164A51 /* AppDelegate.m */,
+				EE99DB2519B8904A00164A51 /* Images.xcassets */,
+				EE99DB2719B8904A00164A51 /* MainMenu.xib */,
+				EE99DB1E19B8904A00164A51 /* Supporting Files */,
+			);
+			path = RegisterUTIsForLogos;
+			sourceTree = "<group>";
+		};
+		EE99DB1E19B8904A00164A51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE99DB1F19B8904A00164A51 /* Info.plist */,
+				EE99DB2019B8904A00164A51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE99DB3119B8904A00164A51 /* RegisterUTIsForLogosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE99DB3419B8904A00164A51 /* RegisterUTIsForLogosTests.m */,
+				EE99DB3219B8904A00164A51 /* Supporting Files */,
+			);
+			path = RegisterUTIsForLogosTests;
+			sourceTree = "<group>";
+		};
+		EE99DB3219B8904A00164A51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE99DB3319B8904A00164A51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE99DB1A19B8904A00164A51 /* RegisterUTIsForLogos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE99DB3819B8904A00164A51 /* Build configuration list for PBXNativeTarget "RegisterUTIsForLogos" */;
+			buildPhases = (
+				EE99DB1719B8904A00164A51 /* Sources */,
+				EE99DB1819B8904A00164A51 /* Frameworks */,
+				EE99DB1919B8904A00164A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegisterUTIsForLogos;
+			productName = RegisterUTIsForLogos;
+			productReference = EE99DB1B19B8904A00164A51 /* RegisterUTIsForLogos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE99DB2D19B8904A00164A51 /* RegisterUTIsForLogosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE99DB3B19B8904A00164A51 /* Build configuration list for PBXNativeTarget "RegisterUTIsForLogosTests" */;
+			buildPhases = (
+				EE99DB2A19B8904A00164A51 /* Sources */,
+				EE99DB2B19B8904A00164A51 /* Frameworks */,
+				EE99DB2C19B8904A00164A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE99DB3019B8904A00164A51 /* PBXTargetDependency */,
+			);
+			name = RegisterUTIsForLogosTests;
+			productName = RegisterUTIsForLogosTests;
+			productReference = EE99DB2E19B8904A00164A51 /* RegisterUTIsForLogosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE99DB1319B8904A00164A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Sticktron;
+				TargetAttributes = {
+					EE99DB1A19B8904A00164A51 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EE99DB2D19B8904A00164A51 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EE99DB1A19B8904A00164A51;
+					};
+				};
+			};
+			buildConfigurationList = EE99DB1619B8904A00164A51 /* Build configuration list for PBXProject "RegisterUTIsForLogos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE99DB1219B8904A00164A51;
+			productRefGroup = EE99DB1C19B8904A00164A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE99DB1A19B8904A00164A51 /* RegisterUTIsForLogos */,
+				EE99DB2D19B8904A00164A51 /* RegisterUTIsForLogosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE99DB1919B8904A00164A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE99DB2619B8904A00164A51 /* Images.xcassets in Resources */,
+				EE99DB2919B8904A00164A51 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE99DB2C19B8904A00164A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE99DB1719B8904A00164A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE99DB2419B8904A00164A51 /* AppDelegate.m in Sources */,
+				EE99DB2119B8904A00164A51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE99DB2A19B8904A00164A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE99DB3519B8904A00164A51 /* RegisterUTIsForLogosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE99DB3019B8904A00164A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE99DB1A19B8904A00164A51 /* RegisterUTIsForLogos */;
+			targetProxy = EE99DB2F19B8904A00164A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE99DB2719B8904A00164A51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE99DB2819B8904A00164A51 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE99DB3619B8904A00164A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE99DB3719B8904A00164A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE99DB3919B8904A00164A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RegisterUTIsForLogos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE99DB3A19B8904A00164A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RegisterUTIsForLogos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE99DB3C19B8904A00164A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RegisterUTIsForLogosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegisterUTIsForLogos.app/Contents/MacOS/RegisterUTIsForLogos";
+			};
+			name = Debug;
+		};
+		EE99DB3D19B8904A00164A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RegisterUTIsForLogosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegisterUTIsForLogos.app/Contents/MacOS/RegisterUTIsForLogos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE99DB1619B8904A00164A51 /* Build configuration list for PBXProject "RegisterUTIsForLogos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE99DB3619B8904A00164A51 /* Debug */,
+				EE99DB3719B8904A00164A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE99DB3819B8904A00164A51 /* Build configuration list for PBXNativeTarget "RegisterUTIsForLogos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE99DB3919B8904A00164A51 /* Debug */,
+				EE99DB3A19B8904A00164A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE99DB3B19B8904A00164A51 /* Build configuration list for PBXNativeTarget "RegisterUTIsForLogosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE99DB3C19B8904A00164A51 /* Debug */,
+				EE99DB3D19B8904A00164A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE99DB1319B8904A00164A51 /* Project object */;
+}
